@@ -1,7 +1,3 @@
-Hackintosh
-
-==========
-
 Hey guys,
 
 after two sleepless nights I finally managed to get 10.9 (Mavericks) running in a usable state on my LS11HR.
@@ -9,13 +5,13 @@ after two sleepless nights I finally managed to get 10.9 (Mavericks) running in 
 System specs:
 
 Packard Bell LS11HR-225GE
-CPU: Intel Core i7-2630QM
-RAM: 10GB DDR3 1333
-Graphics: ATI Radeon HD 6650M 2GB
-Storage: 120GB Sandisk SSD + 500GB HDD
-WiFi: Atheros AR5B97
-Sound: Realtek ALC269
-Trackpad: Synaptics
+- CPU: Intel Core i7-2630QM
+- RAM: 10GB DDR3 1333
+- Graphics: ATI Radeon HD 6650M 2GB
+- Storage: 120GB Sandisk SSD + 500GB HDD
+- WiFi: Atheros AR5B97
+- Sound: Realtek ALC269
+- Trackpad: Synaptics
 
 I created a setup drive using UniBeast, installed it to my SSD and installed PS/2-fixes, FakeSMC and NullCPUPowerManagement and the universal USB3-fix via MultiBeast.
 It was booting, but I had to add my device id to IO80211Family.kext for WiFi to be recognized.
